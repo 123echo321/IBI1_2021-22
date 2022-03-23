@@ -1,0 +1,16 @@
+#draw columnar map
+import numpy as np
+import matplotlib.mlab as mlab
+import matplotlib.pyplot as plt
+
+X=[30,35,40,45,50,55,60,65,70,75]
+Y=[1.03,1.07,1.11,1.17,1.23,1.32,1.42,1.55,1.72,1.94]
+fig =0 plt.figure()
+plt.bar(X,Y,0.4,color="red")
+plt.xlabel("X-axis")
+plt.ylabel("Y-axis")
+plt.title("bar chart")
+
+
+plt,show()
+plt.savefig("barChart.jpg")
