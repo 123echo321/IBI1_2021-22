@@ -1,0 +1,23 @@
+#sort the eight numbers 
+scores=[45,36,86,53,92,65,45]
+Score = sorted(scores)
+print(Score)
+
+#calculate the average value 
+import numpy as np
+word='average score:'
+S=np.mean(scores)
+print(word,str(S))
+#compare the average value to 60
+if S<60:
+    print('It is lower than the pass mark of 60&')
+else:
+    print('It is higher than the pass mark of 60%')
+#so rob has failed the exam unfortunately
+#create a boxplot to show the scores more directly
+import numpy as np
+import matplotlib.pyplot as plt
+plt.boxplot(scores,sym='o',whis=1.5,patch_artist=True)
+plt.title("Distribution of Scores")
+
+plt.show()
