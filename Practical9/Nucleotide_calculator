@@ -1,0 +1,26 @@
+def nucleotide_percentage (sq):
+    """
+    Input DNA sequence and change them into upper case
+    count the number and Calculate the percentage of nucleotides
+    Print the outcome of the function
+    Please note that the input step can only be done in python3 version
+    """
+    sq = sq.upper()
+    a_num = sq.count("A")
+    b_num = sq.count("T")
+    c_num = sq.count("C")
+    d_num = sq.count("G")
+    Percent_a = round(a_num/len(sq),2)
+    Percent_b = round(b_num/len(sq),2)
+    Percent_c = round(c_num/len(sq),2)
+    Percent_d = round(d_num/len(sq),2)
+    Pa = str(Percent_a*100)
+    Pb = str(Percent_b*100)
+    Pc = str(Percent_c*100)
+    Pd = str(Percent_d*100)
+    output = "A% is "+Pa+" %"+"\n"+"T% is "+Pb+" %"+"\n"+"C% is "+Pc+" %"+"\n"+"G% is "+Pd+" %"
+    print(output)
+    return output
+#the input step can only be done in python3 version
+z = input("DNA sequence is "+"\n")
+nucleotide_percentage (z)

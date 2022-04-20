@@ -1,0 +1,17 @@
+def calculator(x,y):
+    """
+    input: the total money and the price of the chocolate bar
+    divide x by y to calculate the integer, which is the number of bars
+    calculate the remainder of x divided by y, which is the money in change
+    Print the output of the function
+    """
+    total_money = int(x)
+    price = int(y)
+    bars_number = total_money//price
+    change = total_money%price
+    output = "You can buy "+str(bars_number)+" bars"+"\n"+"There are "+str(change)+" left."
+    print(output)
+    return output
+X = input("Your total money is ")
+Y = input("The price of one chocolate bar is ")
+Z = calculator(X,Y)
