@@ -6,8 +6,9 @@ I like tea very much
 I like Radio 4
 I like IBI
 I like qjy
-
+<<<<<<< HEAD
 
 i don't like typing
 i don't like beef
 i don't like running
+>>>>>>> Alex
