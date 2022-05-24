@@ -1,11 +1,22 @@
-class Coordinate (object):
-    def __init__(self,full_name,location,role):
-        self.x = full_name
-        self.y = location
-        self.z = role
-    def Coordinate (self):
-        info = "full name:"+self.x+"   location:"+self.y+"   role:"+self.z
-        print(info)
-        return info
-Z = Coordinate("John Wilson","International_Campus","Professor")
-Z.Coordinate()
+class staff ():
+    def __init__(self,a,b,c,d):
+        self.first_name = a
+        self.last_name = b
+        self.location = c
+        self.role = d
+        
+        
+    def printinfo(self):
+        print("name:",self.first_name,self.last_name,"location:",self.location,"role:",self.role)
+staff = Staff(input("first_name:"),input("last_name:"),input("location:"),input("role:"))
+staff.printinfo()
+"""
+
+
+#     input:
+             first_name:Daoxian
+             last_name:Piao
+             location:Shanghai
+             role:professional e-sports player
+      output：
+             name: Daoxian Zhang location: Shanghai role: professional e-sports player
