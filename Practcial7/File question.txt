@@ -1,0 +1,13 @@
+question:South Korea, Kenya, and Colombia are three countries , but they have similar populations. 
+Plot the total number of COVID cases over time in three countries
+
+line number：137-213
+
+Hypothesis: 
+With similar populations in all three countries, it would be reasonable to expect a similar number of people to be infected.
+but as a result of improper measures taken by the South Korean government, the number of infections in South Korea should be much higher than in the other two countries
+
+The result is Consistent with the hypothesis.
+South Korea's highest number of infections was close to 10,000.
+Kenya's highest number of infections was close to 50.
+Colombia's highest number of infections was close to 800.
